@@ -1,0 +1,643 @@
+body{
+    font-size: 16px;
+    color: #805020;
+    background-color: #e6c8c8;
+    font-size: 18px;
+    font-family: 'Amiri', serif;
+}
+
+
+/*Header*/
+#header-nav{
+    background-color: #f0e6eb;
+    border-radius: 0;
+    border: 0;
+}
+
+#logo-img{
+    background: url(/img/Mediamodifier-Design-Template-removebg1.png) no-repeat;
+    width: 200px;
+    height: 200px;
+    background-position: center;
+    margin: -10px 15px 10px 0px;  
+}
+
+    /*DAVID CHO'S CHINA BISTRO
+    Kosher certificaion KOSHER CERTIFIED*/
+.navbar-brand{
+    padding-top: 25px;
+}
+
+/*DAVID CHO'S CHINA BISTRO*/
+.navbar-header h1{
+    color: #a0682f;
+    font-size: 2em;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #222;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    line-height: .75;
+    text-align: center;
+}
+
+#restaurant-name a{
+    text-decoration: none;
+    display: block;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+#nav-list{
+    margin-top: 10px;
+}
+
+#nav-list a{
+    color: #a0682f;
+    text-align: center;
+}
+
+#nav-list li:not(:last-child){
+    margin-right: 10px;
+}
+
+#nav-list a:hover{ /*when the mouse touch it change the color*/
+    background: rgb(120 45 45 / 10%);
+}
+
+.navbar-default .navbar-nav>.active>a{
+    background-color: rgb(120 45 45 / 10%);
+}
+
+#nav-list a span{
+    font-size: 1.8em;
+}
+
+#phone{
+    margin-top: 5px;
+}
+
+#phone a{ /*phone number*/
+    text-align: right;
+    padding-bottom: 0;
+}
+
+#phone div{ /*We Deliver*/
+    color: #557c3e;
+    text-align: right;
+    padding-right: 15px;
+    font-size: 1.2em;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+    border: 1px solid #61122F;
+}
+
+.navbar-header button.navbar-toggle{
+    clear: both;
+    margin-top: -30px;
+    top: -120px;
+}
+/*End header*/
+
+/*FOOTER*/
+.panel-footer{
+    margin-top:30px;
+    padding-top:35px;
+    padding-bottom:30px;
+    background-color:#f0e6eb;
+    border-top:0;
+}
+
+.panel-footer div.row{
+    margin-bottom: 35px;
+    text-align: center;
+}
+
+#hours, #address{
+    line-height: 2;
+}
+
+#hours > span, #address > span{
+    font-size: 1.3em;
+}
+
+#address p{
+    color:#557c3e;
+    font-size:.8em;
+    line-height:1.8;
+}
+              
+#testimonials{
+  font-style: italic;
+}
+
+#testimonials p:nth-child(2){ 
+    margin-top:25px;
+}
+
+.material-symbols-outlined{
+    color: rgb(218, 47, 47);
+}
+/*END FOOTER*/
+
+
+/*Home page*/
+.container .jumbotron{
+    margin-top: 50px;
+    box-shadow: 5px 10px 10px #3f0c1f;
+    margin-bottom: 200px;
+    border-radius: 10px;
+}
+
+#about-us{
+    border: 1px solid rgb(151, 75, 75);
+    margin-bottom: 200px;
+    font-size: 1.5em;
+    display: flex;
+    margin-left: 0;
+    margin-right: 0;
+    background-color: #f0e6eb;
+    border-radius: 10px;
+    box-shadow: 5px 10px 10px #3f0c1f;
+}
+
+#chef{
+    background: url(/img/Avatars\ -\ Default.png) no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+}
+
+.remove-padding{
+    padding: 0;
+    flex: 1;
+}
+
+#change{
+    font-style: italic;
+}
+
+#change .glyphicon{
+    color: #000;
+}
+
+#less-margin{
+    margin-bottom: 30px;
+}
+
+.text-right p{
+    font-weight: 100;
+    font-size: 1em;
+}
+
+.row h1{
+    font-size: 50px;
+    margin-bottom: 60px;
+}
+
+#best-sellers{
+    margin-bottom: 200px;
+}
+
+#menu-tile,#healthy-tile,#halawa,#gariba,#jawziya{
+    height:250px;
+    width:100%;
+    margin-bottom:15px;
+    position:relative;
+    border:2px solid#3F0C1F;
+    overflow:hidden;
+}
+
+#menu-tile:hover, #healthy-tile:hover,#halawa:hover,#gariba:hover,#jawziya:hover{
+    box-shadow:0 1px 5px 1px #5c5151;
+}
+
+#halawa{
+    background:url(/img/حلاوة\ جبن.png) no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#gariba{
+    background:url(/img/غريبة.jpg) no-repeat;
+    background-position: bottom;
+    background-size: cover;
+}
+
+#jawziya{
+    background:url(/img/جوزية\ كيتو.png) no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.hidden-explanation{
+    display: none;
+}
+
+.show-when-hover:hover .hidden-explanation{
+    display: block;
+}
+
+.show-when-hover:hover .shown-explanation{
+    display: none;
+}
+
+#menu-tile span,#healthy-tile span ,#halawa span,#gariba span,#jawziya span{
+    position:absolute;
+    bottom:0;
+    right:0;
+    width:100%;
+    text-align:center;
+    font-size:1.6em;
+    text-transform:uppercase;
+    background-color: rgba(0, 0, 0, 0.7);
+    color:#ffffff;
+}
+
+#halawa .hidden-explanation ,#gariba .hidden-explanation ,#jawziya .hidden-explanation{
+    height: 100%;
+}
+
+.hidden-explanation div:nth-child(1){
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+}
+
+.hidden-explanation div:nth-child(2){
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+#menu-tile{
+    background:url(/img/جوزية\ كيتو.png) no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#healthy-tile{
+    background:url(/img/صحية.png) no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#home-tiles{
+    margin-bottom: 200px;
+}
+
+.lord-icon{
+    width: 150px;
+    height: 150px;
+}
+/*End Home page*/
+
+
+/*Menu categories*/
+.category-tile{
+    position:relative;
+    border:2px solid #3F0C1F;
+    overflow:hidden;
+    width:200px;
+    height:200px;
+    margin:0 auto 15px; /*The auto is set automatically in the left and right*/
+}
+
+.category-tile span{
+    position:absolute;
+    bottom:0;
+    right:0;
+    width:100%;
+    text-align: center;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    background-color: #000;
+    color: #fff;
+    opacity: 0.8;
+}
+
+.category-tile:hover{
+    box-shadow: 0 1px 5px 1px #3f0c1f;
+}
+
+#menu-categories-title{
+    margin-bottom: 40px;
+    font-size: 56px;
+}
+
+#main-content h2{
+    margin-bottom: 250px;
+    line-height: 1.6;
+}
+
+h2#normal-sweets , h2#healthy-sweets{
+    margin-bottom: 100px;
+    font-size: 40px;
+}
+
+#main-content h2 a{
+    text-decoration: none;
+    color: #805020;
+    text-shadow: 1px 1px #000;
+}
+
+#main-content h2 a:hover{
+    color: #c0864c;
+}
+/*End Menu categories*/
+
+
+/* SINGLE CATEGORY PAGE */
+.menu-item-tile{
+    margin-bottom: 25px;
+}
+
+.menu-item-tile hr{ /*it's visible in small devices*/
+    width: 80%;
+}
+
+.menu-item-tile .menu-item-price {
+    font-size: 1.2em;
+    margin-top: -15px;
+    margin-right: -15px;
+}
+
+.menu-item-photo{
+    position: relative;
+    border: 1px solid #3F0C1F;
+    overflow: hidden;
+    padding: 0;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 20px;
+    max-width: 250px;
+}
+
+section.img-responsive{
+    height: 140px;
+}
+
+.responsive{
+    display: block;
+    width: 100%;
+    height: 212px;
+}
+
+.menu-item-tile hr{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.menu-item-description {
+    padding-right: 10px;
+}
+
+h3.menu-item-title {
+    margin: 0 0 30px;
+    font-size: 30px;
+}
+    
+.menu-item-details{
+    font-size: 1.2em;
+    font-style: italic;
+}
+
+#normal-section{
+    margin-bottom: 200px;
+}
+
+#healthy-section{
+    margin-bottom: 100px;
+}
+/* END SINGLE CATEGORY PAGE */
+
+/*Large devices*/
+@media (min-width: 1200px){
+    /*Header*/
+    .container .jumbotron{
+        background: url(/img/Sweet\ Queen\ \(1\).png) no-repeat;
+        background-size: cover;
+        height: 910px;
+    }
+    /*End header*/
+
+
+    /*Home page*/
+    #about-us{
+        height: 480px;
+    }
+    /*End home page*/
+}
+/*End Large devices*/
+
+/*Medium devices*/
+@media (min-width: 992px) and (max-width: 1199px){
+    /*Header*/
+    #logo-img{
+        background: url(/img/Mediamodifier-Design-Template-removebg1.png) no-repeat;
+        background-position: center;
+        background-size: cover;
+        margin: 5px 5px 5px 0;
+    }
+
+    .container .jumbotron{
+        background: url(/img/Sweet\ Queen\ \(1\).png) no-repeat;
+        background-size: cover;
+        height: 750px;
+    }
+    /*End header*/
+
+    /*Home page*/
+    #about-us{
+        height: 560px;
+    }
+    /*End home page*/
+
+    /*Menu categories*/
+    .responsive{
+        height: 170px;
+    }
+    /*End menu categories*/
+}
+/*End Medium devices*/
+
+/*Small devices*/
+@media (min-width: 768px) and (max-width: 991px){
+    .container .jumbotron{
+        background: url(/img/Sweet\ Queen\ \(1\).png) no-repeat;
+        background-size: cover;
+        height: 575px;
+    }
+
+    #menu-tile span,#healthy-tile span ,#halawa span,#gariba span,#jawziya span{
+        font-size: 1.3em;
+    }
+}
+/*End Small devices*/
+
+/*Extra small devices*/
+@media (max-width: 767px){
+    /*Header*/
+    .navbar-brand {
+        padding-top: 10px;
+        height: 80px;
+        margin-bottom: 15px;
+        width: 100%;
+        text-align: center;
+    }
+    .navbar-brand h1 { /*Restaurant name*/
+        padding-top: 10px;
+        font-size: 2em;
+    }
+    .navbar-brand p { /*Kosher cert*/
+        font-size: .6em;
+        margin-top: 12px;
+    }
+    .navbar-brand p img { /*Star img*/
+        height: 20px;
+    }
+    #collapsable-nav a{
+        font-size: 1.2em;
+    }
+    #collapsable-nav a span{
+        font-size: 1em;
+        margin-right: 5px;
+    }
+
+    #call-btn > a{
+        font-size: 1.5em;
+        display: block;
+        margin: 0 20px;
+        padding: 10px;
+        border: 2px solid rgb(241, 80, 80);
+        background-color: #f0e6eb;
+        color: #951c49;
+    }
+
+    #xs-deliver {
+        margin-top: 5px;
+        font-size: 1.3em;
+        color: #a0682f;
+        margin-bottom: 50px;
+    }
+
+    /*End Header*/
+
+
+    /*Home Page*/
+    .container .jumbotron{
+        margin-top: 30px;
+        padding: 0px;
+    }
+
+    .container .jumbotron img{
+        border-radius: 10px;
+    }
+
+    #about-us{
+        display: block;
+    }
+
+    .remove-padding{
+        flex: 0;
+    }
+
+    #chef{
+        margin-left: auto;
+        margin-right: auto;
+        width: 360px;
+        height: 450px;
+    }
+
+    #menu-tile,#healthy-tile,#halawa,#gariba,#jawziya{
+        width:360px;
+        margin:0 auto 15px; /*The auto is set automatically in the left and right*/
+    }
+
+    #halawa,#gariba,#jawziya,#menu-tile{
+        margin-bottom: 50px;
+    }
+    /*End Home Page*/
+
+    /*Footer*/
+
+    .panel-footer section{
+        margin-bottom:30px;
+    }    
+
+    .panel-footer section:nth-child(3){
+        margin-bottom: 0; /*margin already exists on the whole row*/
+    }     
+
+    .panel-footer section hr{
+        width:50%;
+    }
+    /*End Footer*/
+
+    /*Single page category*/
+    .menu-item-photo{
+        margin-right: auto;
+    }
+
+    .menu-item-tile .menu-item-price , .menu-item-description{
+        text-align: center;
+    }
+
+    .menu-item-details{
+        text-align: center;
+    }
+    /*End Single page category*/
+}
+/*End Extra small devices*/
+
+/*Between extra small and super extra small devices*/
+
+/**************** Super extra small devices Only :-) ***/
+@media(max-width:479px){
+    /*Header*/
+    #restaurant-name a{
+        margin: 0px 35px;
+    }
+
+    .navbar-brand h1{/*Restaurant name*/
+        padding-top: 5px;
+        font-size:6vw;
+    }
+    /*End Header*/
+
+    /*Home page*/
+    #about-us{
+        font-size: 1.2em;
+    }
+
+    #chef{
+        background: url(/img/Avatars\ -\ Default\ 1.png) no-repeat;
+        width: 100%;
+        background-position: center;
+    }
+
+    #menu-tile,#healthy-tile,#halawa,#gariba,#jawziya{
+        width:280px;
+        margin:0 auto 40px; /*The auto is set automatically in the left and right*/
+    }
+
+    .col-xxs-12{
+        position: relative;
+        min-height: 1px;
+        padding-right: 15px;
+        padding-left: 15px;
+        float: left;
+        width: 100%;
+    }
+
+    .lord-icon{
+        width: 120px;
+        height: 120px;
+    }
+
+    #sweets-menu , #best-sellers-title{
+        font-size: 40px;
+    }
+}
