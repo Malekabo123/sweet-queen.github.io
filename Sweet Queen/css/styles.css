@@ -15,7 +15,7 @@ body{
 }
 
 #logo-img{
-    background: url(/img/Mediamodifier-Design-Template-removebg1.png) no-repeat;
+    background: url(../img/Mediamodifier-Design-Template-removebg1.png) no-repeat;
     width: 200px;
     height: 200px;
     background-position: center;
@@ -135,7 +135,7 @@ body{
     margin-top:25px;
 }
 
-.material-symbols-outlined{
+.panel-footer .material-symbols-outlined{
     color: rgb(218, 47, 47);
 }
 /*END FOOTER*/
@@ -162,7 +162,7 @@ body{
 }
 
 #chef{
-    background: url(/img/Avatars\ -\ Default.png) no-repeat;
+    background: url(../img/Avatars\ -\ Default.png) no-repeat;
     background-position: center;
     width: 100%;
     height: 100%;
@@ -213,19 +213,19 @@ body{
 }
 
 #halawa{
-    background:url(/img/حلاوة\ جبن.png) no-repeat;
+    background:url(../img/حلاوة\ جبن.png) no-repeat;
     background-position: center;
     background-size: cover;
 }
 
 #gariba{
-    background:url(/img/غريبة.jpg) no-repeat;
+    background:url(../img/غريبة.jpg) no-repeat;
     background-position: bottom;
     background-size: cover;
 }
 
 #jawziya{
-    background:url(/img/جوزية\ كيتو.png) no-repeat;
+    background:url(../img/جوزية\ كيتو.png) no-repeat;
     background-position: center;
     background-size: cover;
 }
@@ -273,13 +273,13 @@ body{
 }
 
 #menu-tile{
-    background:url(/img/جوزية\ كيتو.png) no-repeat;
+    background:url(../img/جوزية\ كيتو.png) no-repeat;
     background-position: center;
     background-size: cover;
 }
 
 #healthy-tile{
-    background:url(/img/صحية.png) no-repeat;
+    background:url(../img/صحية.png) no-repeat;
     background-position: center;
     background-size: cover;
 }
@@ -413,11 +413,37 @@ h3.menu-item-title {
 }
 /* END SINGLE CATEGORY PAGE */
 
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: #c46d97;
+    color: #ffffff;
+    cursor: pointer;
+    padding: 8px 12px;
+    border-radius: 50%;
+}
+  
+#myBtn:hover {
+    background-color: #cf88aa;
+}
+
+.material-symbols-outlined{
+    color: #fff;
+}
+
+
+
 /*Large devices*/
 @media (min-width: 1200px){
     /*Header*/
     .container .jumbotron{
-        background: url(/img/Sweet\ Queen\ \(1\).png) no-repeat;
+        background: url(../img/Sweet\ Queen\ \(1\).png) no-repeat;
         background-size: cover;
         height: 910px;
     }
@@ -436,14 +462,14 @@ h3.menu-item-title {
 @media (min-width: 992px) and (max-width: 1199px){
     /*Header*/
     #logo-img{
-        background: url(/img/Mediamodifier-Design-Template-removebg1.png) no-repeat;
+        background: url(../img/Mediamodifier-Design-Template-removebg1.png) no-repeat;
         background-position: center;
         background-size: cover;
         margin: 5px 5px 5px 0;
     }
 
     .container .jumbotron{
-        background: url(/img/Sweet\ Queen\ \(1\).png) no-repeat;
+        background: url(../img/Sweet\ Queen\ \(1\).png) no-repeat;
         background-size: cover;
         height: 750px;
     }
@@ -466,7 +492,7 @@ h3.menu-item-title {
 /*Small devices*/
 @media (min-width: 768px) and (max-width: 991px){
     .container .jumbotron{
-        background: url(/img/Sweet\ Queen\ \(1\).png) no-repeat;
+        background: url(../img/Sweet\ Queen\ \(1\).png) no-repeat;
         background-size: cover;
         height: 575px;
     }
@@ -613,7 +639,7 @@ h3.menu-item-title {
     }
 
     #chef{
-        background: url(/img/Avatars\ -\ Default\ 1.png) no-repeat;
+        background: url(../img/Avatars\ -\ Default\ 1.png) no-repeat;
         width: 100%;
         background-position: center;
     }
